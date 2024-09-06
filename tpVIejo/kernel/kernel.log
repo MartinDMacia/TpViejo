@@ -1,0 +1,27 @@
+[INFO] 16:09:51:625 KERNEL/(4421:4421): Se crea el proceso 0 en NEW
+[INFO] 16:10:04:289 KERNEL/(4421:4421): Se crea el proceso 1 en NEW
+[INFO] 16:10:11:868 KERNEL/(4421:4425): PID: 0 - Estado Anterior: NUEVO - Estado Actual: LISTO
+[INFO] 16:10:11:868 KERNEL/(4421:4425): Cola Ready: [ 0 ]
+[INFO] 16:10:11:868 KERNEL/(4421:4425): PID: 1 - Estado Anterior: NUEVO - Estado Actual: LISTO
+[INFO] 16:10:11:868 KERNEL/(4421:4425): Cola Ready: [ 0  1 ]
+[INFO] 16:10:11:870 KERNEL/(4421:4426): PID: 0 - Estado Anterior: LISTO - Estado Actual: EJECUTANDO
+[INFO] 16:10:11:881 KERNEL/(4421:4426): PID: 0 - Estado Anterior: EJECUTANDO - Estado Actual: BLOQUEADO
+[INFO] 16:10:11:881 KERNEL/(4421:4426): PID: 0 - Bloqueado por: DORMILON
+[INFO] 16:10:11:881 KERNEL/(4421:4426): PID: 1 - Estado Anterior: LISTO - Estado Actual: EJECUTANDO
+[INFO] 16:10:11:881 KERNEL/(4421:4426): PID: 1 - Estado Anterior: EJECUTANDO - Estado Actual: BLOQUEADO
+[INFO] 16:10:11:881 KERNEL/(4421:4426): PID: 1 - Bloqueado por: RA
+[INFO] 16:10:26:897 KERNEL/(4421:4505): PID: 0 - Estado Anterior: BLOQUEADO - Estado Actual: LISTO
+[INFO] 16:10:26:897 KERNEL/(4421:4505): Cola Ready: [ 0 ]
+[INFO] 16:10:26:904 KERNEL/(4421:4426): PID: 0 - Estado Anterior: LISTO - Estado Actual: EJECUTANDO
+[INFO] 16:10:26:911 KERNEL/(4421:4426): PID: 1 - Estado Anterior: BLOQUEADO - Estado Actual: LISTO
+[INFO] 16:10:26:911 KERNEL/(4421:4426): Cola Ready: [ 1 ]
+[INFO] 16:10:26:921 KERNEL/(4421:4426): PID: 0 - Estado Anterior: EJECUTANDO - Estado Actual: BLOQUEADO
+[INFO] 16:10:26:921 KERNEL/(4421:4426): PID: 0 - Bloqueado por: RA
+[INFO] 16:10:26:921 KERNEL/(4421:4426): PID: 1 - Estado Anterior: LISTO - Estado Actual: EJECUTANDO
+[INFO] 16:10:26:925 KERNEL/(4421:4426): PID: 1 - Estado Anterior: EJECUTANDO - Estado Actual: FINALIZADO
+[INFO] 16:10:26:925 KERNEL/(4421:4426): Finaliza el proceso 1 - Motivo: SUCCESS
+[INFO] 16:10:26:925 KERNEL/(4421:4426): PID: 0 - Estado Anterior: BLOQUEADO - Estado Actual: LISTO
+[INFO] 16:10:26:925 KERNEL/(4421:4426): Cola Ready: [ 0 ]
+[INFO] 16:10:26:925 KERNEL/(4421:4426): PID: 0 - Estado Anterior: LISTO - Estado Actual: EJECUTANDO
+[INFO] 16:10:26:925 KERNEL/(4421:4426): PID: 0 - Estado Anterior: EJECUTANDO - Estado Actual: FINALIZADO
+[INFO] 16:10:26:925 KERNEL/(4421:4426): Finaliza el proceso 0 - Motivo: SUCCESS
